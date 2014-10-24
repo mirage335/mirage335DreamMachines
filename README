@@ -76,6 +76,8 @@ For both systems, finding scrap parts, or even fabricating one's own parts, may 
 
 Additionally, most components are long-term investments. Motherboard supports top-end Xeon and Corei7 CPUs, single-rail 1.3kW PSUs are not likely to depreciate, 1kW capable cooling technology has not changed greatly since initial automotive use, 120mm fans have been standard for years, RAM will likely be added rather than replaced, and HDDs in RAID5/6 can be used until actual failure.
 
+Finally, Desktop cost can be reduced by about $1k, by neglecting water cooling. At idle, this should not result in greater noise or performance hits, though full load will then incurr greatly increased noise, significant performance hits, and may leave no practical option to transport heat outdoors.
+
 Nonetheless, the author (mirage335) is still trying to finance actually building, testing, and using systems.
 
 _Future_
