@@ -1,0 +1,52 @@
+_Maintenance_
+Spot corrosion seems to occur rapidly during prolonged stagnation. Coolant should drained if machine will not be used for an extended period of time.
+
+Coolant replacement at 6-12month intervals seems typical. Methanol coolants may be more corrosive, especially in the presence of contamination and oxygen, suggesting more frequent coolant replacement.
+
+Metal surfaces exposed to coolant should be regularly checked for corrosion. Especially true for methanol coolants, where leakage presents a safety hazard.
+
+_Fluid_
+EthyleneGlycol mixtures including corrosion inhibitors as well as algicides are traditional, and relatively safe. However, methanol offers inherent biocidal properties, superb low temperature protection, and most importantly, actually improves viscosity.
+
+See http://www.overclockers.com/data-on-coolants-and-liquids-used-in-computer-watercooling/ .
+
+Herein is a tradeoff between reliability and maximum performance. Best approach may be storing a full supply of both types of mixtures, using a methanol based solution only when justified by performance gains.
+
+-Methanol-
+30% Methanol
+70% Distilled Water
+
+Warning: Methanol fumes are highly toxic, possibly flammable. Corrosion thus presents a safety hazard, and this mix may be more corrosive than pure water.
+
+-EthyleneGlycol-
+"Phobya ZuperZero Xtreme Coolant - 500mL (Concentrate)"
+OR
+3% Premium Antifreeze
+97% Distilled Water
+Silver Killcoil
+
+Note that automotive antifreeze may contain inappropriate chemicals, like sodium silicate, with the possibility of clogging.
+
+_Metals_
+Waterblock surfaces exposed to coolant should be exclusively copper/bronze/silver, to minimize risk of catastrophic coolant leakage.
+
+Aluminum should not be used anywhere in the system.
+
+See http://martinsliquidlab.org/2012/01/24/corrosion-explored/ .
+
+_Closed/Open_
+True open-loop evaporative coolers boil off their coolant into an open environment. Even with water, cooling to ambient or below is possible given a sufficiently large evaporative surface area. Continual loss of cooling fluid, exposure to an external microbial infestation, and apparent lack of sutible commercial products are major drawbacks.
+
+Closed-loop watercoolers simply move the heat from a high-density spot (ie. chip) to a low-density surface (ie. radiator). Typically, the air-cooled radiatior is a limiting factor, with commercial units like the Cooler Master Nepton 280L achieving 22.6degC/340W at two low-profile 120mm fans. However, the sealed system may be more robust.
+
+In the end, a custom closed-loop system may be engineered to maintain ~1kW loads at near ambient, with ~4 thick 120mm variable speed fans. For a workstation, this kind of reliable, quiet performance may be idea. Hardcore overclockers may then add ports and valves for quick connection of an evaporative cooler when justified.
+
+See http://www.anandtech.com/show/7738/closed-loop-aio-liquid-coolers/9 .
+
+
+
+
+
+
+
+

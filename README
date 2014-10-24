@@ -1,0 +1,82 @@
+_Design_
+Maximum performance solutions. Specifications for these computer systems are expected to remain top-of-the-line for years to come, with extensibility to take on new hardware and changing demands.
+
+Some condensed research on watercooling and workstation GPU selections has been made available in the Research folder.
+
+_Usage_
+See bom.ods for parts list. Recommend checking a variety of suppliers for latest prices, using sites like PriceGrabber, Google Shopping, Amazon, eBay, Newegg, and TigerDirect.
+
+_Server_
+Intended to serve small-businesses or households with multiple 2TB+ computers to backup regularly, software build jobs, a variety web services to host virtually, and similar balanced server requirements.
+
+Initial configuration provides:
+* 4Core/8Thread Xeon Processor
+* 32GB ECC RAM
+* 10TB RAID5/6 1Gb/s Parity-Checked Network Storage
+* 1TB RAID0 800MB/s High-Speed Cache
+
+Extensible to:
+* 18Core/36Thread Xeon/Core_i7 Processor
+* 128GB ECC RAM (without changing processor or existing RAM)
+* 24TB RAID5/6 1Gb/s Parity-Checked Network Storage (just double the number of 2TB disks)
+* 2TB RAID0 1.6GB/s High-Speed Cache
+* 10GbE
+
+Efficiency, extensibility, and cost-effectiveness were the primary focus. Idle power consumption is approximately 100W. Initial configuration can be upgraded multiple times as known hardware becomes affordable, providing a design life upwards of a decade for the intended uses. CPU throughput is adequate to manage the RAID arrays with MDADM, eliminating the need for expensive SSDs.
+
+Possible uses include:
+*) Automatic rsync backups of connected laptops, with LVM version control.
+*) Generic NAS, high reliability.
+
+*) Daily Linux binary package build server.
+
+*) Software repository (git).
+*) Internal web services - Owncloud, MantisBT, etc.
+
+*) Security camera data storage.
+*) TV broadcast retention.
+
+*) Generic Xen/VM hosting.
+*) Web server applications.
+*) Wired router.
+
+_Desktop_
+Server's motherboard, with LGA2011-v3 socket support and many high-capacity PCI-E slots, can also be expanded to a high-end workstation design. Intended to serve high-end professionals, such as aerospace engineers, architects, animators, kernel developers, physicists, statisticians, game developers, VR/AR developers, and others.
+
+Initial configuration provides:
+* 6Core/12Thread Corei7 Processor, K series (unlocked, overclockable)
+* 32GB RAM
+* 2TB, 400MB/s (Various MDADM configurations possible.)
+* 2 * GeForce GTX 980
+* WaterCooling
+
+Alternatively, the GeForce GTX 980 GPUs may be substituted for GeForce GTC 690/680 GPUs, which have known procedures for conversion to Xen passthrough capable Quadro cards.
+
+Here, emphasis is placed less on absolute extensibility of the core platform, and more on initial performance. CPU is about 25% faster, and overclockable beyond that, and the RAM configuration is immediately quad-channel (~64GB/s). However, the RAM ceiling is 64GB, unless both CPU and RAM type are replaced. Hard disk capacity is also less, but concentrated on more robust laptop disks. Overall, the impetus is more towards single-user performance and dependability rather than multi-user capacity.
+
+However, expansion card extensibility is greater than ever. Power supply and water cooling are provided for silent operation at 1kW or more, temperatures rising only 10degC above ambient. GPU throughput starts at 12TFLOPS, to over 16TFLOPS. Future GPUs may expand number crunching throughput even further. As with the server configuration's RAID arrays, CPU and RAM are sufficient to back these capabilities in practical applications. Still, idle power consumption is estimated at <150W.
+
+Possible uses include:
+*) CAD modeling large assemblies (ie. complex multi-engine aircraft).
+*) Architectural modeling. Conceptual, mechanical, electrical, and plumbing.
+*) Real-time particle physics simulation and global illumination.
+*) CNC toolpath calculation.
+*) Photomodeling.
+*) Presentation rendering.
+*) HD video editing, specifically compositing.
+*) Modifying, building, and testing large software packages.
+*) Bioinfomatics.
+*) Malware reverse-engineering, characterization, and neutralization.
+*) High-resolution, high-framerate, high-definition head-mounted display driving.
+
+_Cost_
+Server is approximately $2k, reasonable to serve diverse organization needs for a long time. Desktop is somewhat less affordable, at $4k largely due to the immediacy of core performance targets, GPU costs, and watercooling costs.
+
+For both systems, finding scrap parts, or even fabricating one's own parts, may save a few hundred dollars in cost. In particular, this is true for the Server GPU, Server PSU, Server Case, Desktop Case, Desktop CPU WaterBlock, and Desktop GPU WaterBlock.
+
+Additionally, most components are long-term investments. Motherboard supports top-end Xeon and Corei7 CPUs, single-rail 1.3kW PSUs are not likely to depreciate, 1kW capable cooling technology has not changed greatly since initial automotive use, 120mm fans have been standard for years, RAM will likely be added rather than replaced, and HDDs in RAID5/6 can be used until actual failure.
+
+Nonetheless, the author (mirage335) is still trying to finance actually building, testing, and using systems.
+
+_Future_
+Will update these design, to maintain currency with the latest available hardware. However, this is not expected to occur for at least a year, given the industry transistions many of the components already represent, and preannounced products.
