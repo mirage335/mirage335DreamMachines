@@ -82,5 +82,8 @@ Finally, Desktop cost can be reduced by about $1k, by neglecting water cooling. 
 
 Nonetheless, the author (mirage335) is still trying to finance actually building, testing, and using systems.
 
+_Base_
+Basic high-value machine optimizes the cost of current hardware and power consumption, somewhat at the expense of upgradability. AMD seems to be an industry leader in this market. For server use, this is a good starting point. For desktop use, where idle power consumption and heat are lesser concerns, prebuilt machines from eBay may offer yet lower capital cost and even better value.
+
 _Future_
-Will update these design, to maintain currency with the latest available hardware. However, this is not expected to occur for at least a year, given the industry transistions many of the components already represent, and preannounced products.
+Will update these design, to maintain currency with the latest available hardware. However, this is not expected to occur for at least another year, given the industry transistions many of the components already represent, and preannounced products.
