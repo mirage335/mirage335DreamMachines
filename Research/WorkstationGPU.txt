@@ -1,34 +1,5 @@
-_Abstract_
-GeForce GTX 980 is the best choice when quadro conversion is not a deciding factor. Idle power consumption is especially favorable.
+# Radeon RX Vega 64
+Strongly recommended for better performance.
 
-GeForce GTX 690 is theoretically most powerful single-card for workstation use, however, practical considerations and limited overclocking support may sharply reduce its energy and cost-effectiveness.
-
-GeForce GTX 680 offers the least stock throughput, but overclocking capability (with hardware tool or modification) may render it most cost effective when quadro conversion is a deciding factor.
-
-A compromise approach may be to use a motherboard supporting PCI-E slot on/off switching, and throw in a guaranteed low-cost quadro card, like the Quadro600, specifcally for unusual proprietary applications (ie. AutoCAD).
-
-However, quadro conversion, in this case to Quadro 5000 equivalent, carries a high probability of Xen passthrough support, which enables full Linux/Windows workstation GPU use.
-
-_Introduction_
-GeForce GTX 980 is the best choice when quadro conversion is not a deciding factor. Total throughput is 4.6TFLOPS. Overclocking gains are extensively software limited, but likely in the ballpark of 15%.
-
-GeForce GTX 690 is the most powerful single-card for quadro conversion, and especially powerful for number crunching. However, efficiency and cost-effectiveness for typical applications may be especially low, given not only fewer TFLOPS/W and TFLOPS/$, but also a split-GPU architecture. Total throughput is 5.6TFLOPS. Overclocking gains are extensively software limited.
-
-GeForce GTX 680 does not seem to have limits on overclocking, hardware exists to support arbitrary overvolting, and the card can be quadro modded. However, stock throughput is lowest, at only 3TFLOPS.
-
-_Conclusions_
-GeForce GTX 980 may be among the most cost effective, and most efficient in single-precision GFLOPS/$ and GFLOPS/W. Also supports DirectX 12 and OpenCL 1.2 . Total throughput is 4.6TFLOPS. Quadro softmodding is unverfied, and software overvolt support may be limited. Hardware overvolting is possible, as is internal PSU replacement. Chip power consumption seems limited in software, meaning watercooling may not bring gains beyond maintaining temperature within that preset limit.
-
-GeForce GTX 680 is somewhat less cost effective at original prices, but can be quadro modded. Total throughput is also considerably less, at 3TFLOPS. Overvolting may be possible with EVGA GTX 680 Classified and EVBOT, or hardware modification.
-
-GeForce GTX 690 achieves maximum per-card throughput (in GFLOPS), is also quadro moddable, but cost-effectiveness is similar to the 680 at best. Additionally, it seems the overclocking limit silly business with the 980 started with this card.
-
-All are fabricated on a 28nm process.
-
-_Reference_
-https://web.archive.org/web/20141011235609/http://kingpincooling.com/forum/showthread.php?t=2886
-http://www.eevblog.com/forum/chat/hacking-nvidia-cards-into-their-professional-counterparts/
-http://www.eevblog.com/forum/chat/hacking-nvidia-cards-into-their-professional-counterparts/msg207550/#msg207550
-http://www.hardocp.com/article/2014/10/08/nvidia_geforce_gtx_980_overclocking_video_card_review/4#.VElQ7-eYgrS
-http://www.pcper.com/reviews/Graphics-Cards/NVIDIA-GeForce-GTX-980-and-GTX-970-GM204-Review-Power-and-Efficiency/Overcloc
-http://www.tomshardware.com/reviews/nvidia-geforce-gtx-980-970-maxwell,3941-12.html
+# Radeon Vega Frontier Edition
+Supports "pro" drivers, which may be needed by some proprietary applications.
