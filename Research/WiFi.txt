@@ -1,0 +1,17 @@
+WiFi radios can be used to transceive high speed digital radio packets with minimum CPU overhead, as with WiFiBroadcast.
+
+AR9172, RT5572
+
+RTL8812AU (Speculative)
+
+
+# Reference
+https://github.com/mirage335/PatchRap/blob/master/PatchRap.pdf
+
+https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/
+https://wikidevi.com/wiki/Atheros
+https://wikidevi.com/wiki/List_of_802.11ac_Hardware
+https://github.com/gnab/rtl8812au/issues/6
+https://github.com/mk-fg/rtl8812au#performance
+https://serverfault.com/questions/893961/trouble-with-802-11ac-from-a-wle900vx-card-qca9880-ath10k-via-hostapd
+http://wifiovercoax.mcleodnet.com/

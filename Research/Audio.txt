@@ -1,0 +1,28 @@
+Audio hardware can be used for analog signal conversion, especially when isolated, DC coupled, and/or mixed with more versatile hardware.
+
+Asus Xonar DX (50kHz Low Pass)
+Asus Xonar D1 (Full Bandwidth Suggested)
+Essence STX II (Configurable, High Bandwidth Stated)
+Xonar DSX (Cheap, Possibly Configurable)
+Xonar DGX (Cheap)
+BEHRINGER U-PHORIA UMC202HD
+Behringer U-PHORIA UMC404HD
+
+
+
+# Assumptions
+* DC Coupling.
+* High Frequency cutoffs from built-in antialiasing filters.
+* Possibility of substantially better cost-effectiveness from dedicated ADC/DAC.
+* Real-time synchronization with external ADC/DAC.
+* Cost of additive mixing with external ADC/DAC.
+
+# Reference
+https://delightlylinux.wordpress.com/2017/01/13/experience-better-sound-in-linux-with-the-asus-xonar-dx-sound-card/
+https://www.head-fi.org/threads/asus-xonar-dx-mods.339127/page-6
+http://www.daqarta.com/dw_ggll.htm
+http://zr6aic.blogspot.com/2013/01/add-asus-xonar-d1-sound-card-to-my.html
+https://techreport.com/review/23358/asus-budget-xonar-dgx-and-dsx-sound-cards-reviewed
+http://w4kaz.com/qth/?page_id=2395
+http://www.telepostinc.com/soundcards.html
+https://www.head-fi.org/threads/xonar-d1-measurements.629729/

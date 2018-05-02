@@ -1,0 +1,27 @@
+Elgato Game Capture 4K60 Pro
+	4k@60fps
+	Requires PCIe 3.0 x4
+	Offloads Compression to GPU
+	Dubious Multitasking
+	Linux Not Supported
+
+Magewell Pro Capture Quad HDMI Video Capture Card
+	2x2k@60fps
+	PCIe 2.0 x4
+	Linux Supported
+
+Magewell USB Capture HDMI Gen 2
+	2k
+	1080p@60fps
+	USB 3.0
+	Linux Supported
+
+# Reference
+https://www.amazon.com/AVerMedia-Multi-Card-Low-Latency-Pass-Through-GC570/dp/B06XRF732W/ref=sr_1_13?s=electronics&ie=UTF8&qid=1525228732&sr=1-13&keywords=elgato%2BHD60&th=1
+
+https://www.amazon.com/Elgato-ultra-low-technology-recording-gameplay/dp/B076ZQBN6R
+
+https://www.amazon.com/Magewell-Capture-Quad-HDMI-Video/dp/B0178DV064/ref=sr_1_5?s=electronics&ie=UTF8&qid=1525228776&sr=1-5&keywords=pcie+hdmi+capture+60
+
+https://www.youtube.com/watch?v=sjmtAZTL4xs
+

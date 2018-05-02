@@ -1,0 +1,9 @@
+* ADS1256
+
+
+# Reference
+https://www.robotshop.com/en/raspberry-pi-high-precision-ad-da-expansion-board.html?gclid=EAIaIQobChMIhYvtnZvj2gIVxcDICh37Vg-fEAQYBCABEgJRuvD_BwE
+https://www.newegg.com/Product/Product.aspx?Item=9SIABMK5FH8527&ignorebbr=1&nm_mc=KNC-GoogleMKP-PC&cm_mmc=KNC-GoogleMKP-PC-_-pla-_-Gadgets-_-9SIABMK5FH8527&gclid=EAIaIQobChMI15ndh5zj2gIVFQiRCh15gQAgEAQYAyABEgJcH_D_BwE&gclsrc=aw.ds
+https://www.hifiberry.com/products/
+http://www.pi2design.com/502dac.html
+

@@ -1,0 +1,6 @@
+
+Intel X540-T1 NIC
+
+
+# Reference
+https://www.pcper.com/reviews/General-Tech/Building-Our-Kick-Ass-Plex-Server-AMD-Ryzen-Threadripper-1950X 
