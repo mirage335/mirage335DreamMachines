@@ -3,25 +3,33 @@ Optimized computer configurations, once at least twice as cost-effective as simi
 # Net
 Fast network router solution.
 
+Documented by spreadsheet.
+
 # Micro
 Embedded performant system, >7k Passmark, >1TFLOPS, >6 IO, minimum cost.
+
+Documented by spreadsheet.
 
 # Embedded
 Intended for industrial robots. Expected to support RT_PREEMPT. Optimized for machine learning, visualization, and IO.
 
 Current processor sockets support a maximum of 24 PCIe 3.0 lanes, limiting configuration to roughly "Gen3(16,0) (8,8), Gen2(4)".
 
+Documented by spreadsheet.
+
 # Base
 Basic 'best performance per dollar' machine optimizes the cost of current hardware and power consumption, somewhat at the expense of upgradability. AMD seems to be a current industry leader in this mid-range market.
 
-2xGPU Support
+Cost-effective as a cryptocurrency mining rig, without wasting the opportunity for intermittent desktop use.
+
+ >2xGPU Support
 
 Documented by spreadsheet.
 
 # Workstation
-High-end workstation. Cost-effective as a cryptocurrency mining rig, without wasting the opportunity for intermittent desktop use.
+High-end workstation. VR adapter, hopefully supporting multiple 4k HDMI input encoding simultaneously with intense graphics.
 
-3xGPU Support
+ >3xGPU Support
 
 Documented by spreadsheet.
 
