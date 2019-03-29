@@ -54,11 +54,18 @@ Poor support commitment to end-users has been demonstrated by both companies.
 
 VR applications in particular may be more likely to encounter persistent framerate degrading bugs due to delays in processing IO requests.
 
+Despite higher per-core performance, Intel CPUs are not showing a clear benefit in VR applications. AMD CPUs, with slightly higher total multithreaded throughput, may perform better for some OpenVR applications [1] .
+
 ## ASUS Motherboards
 ASUS motherboards have historically been more likely to ship with unusual BIOS modifications, increasing risk of compatibility issues with certain use cases.
 
 ## USB3 Controllers
 Oculus reports incompatibility with some USB3 controllers. Most likely, these devices are also unsuitable for any realtime industrial applications.
+
+## AMD FX CPUs and Older
+VR applications - especially DCS World, Elite Dangerous, and Onward - have apparently shown some performance issues with AMD FX CPUs. Experiments with CPU affinity, process prioritization, overclocking, and simultaneous multithreading, strongly suggest this is due simply to insufficient total mutithreaded throughput. Newer processors (ie. Ryzen/Threadripper) are recommended.
+
+All workstation designs mentioning AMD FX CPUs are to be considered in need of update.
 
 # Details
 
@@ -75,4 +82,6 @@ https://en.wikipedia.org/wiki/Socket_AM4
 https://us.msi.com/Motherboard/X470-GAMING-M7-AC/Specification
 
 https://www.reddit.com/r/oculus/comments/401xtz/psa_not_all_usb3cards_will_work_with_the_rift/
+
+https://www.gamersnexus.net/guides/2871-amd-vs-intel-vr-cpu-benchmarks-with-vive-and-rift/page-2	[1]
 
