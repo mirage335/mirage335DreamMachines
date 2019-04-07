@@ -18,7 +18,11 @@ Current processor sockets support a maximum of 24 PCIe 3.0 lanes, limiting confi
 Documented by spreadsheet.
 
 # Base
-Basic 'best performance per dollar' machine optimizes the cost of current hardware and power consumption, somewhat at the expense of upgradability. AMD seems to be a current industry leader in this mid-range market.
+Basic 'best performance per dollar' machine optimizes the cost of current hardware and power consumption. AMD seems to be a current industry leader.
+
+Specificially designed for maximum VR rendering framerates. Base overclocking is now a design requirement if well supported by available components.
+
+VR render endpoint.
 
 Cost-effective as a cryptocurrency mining rig, without wasting the opportunity for intermittent desktop use.
 
@@ -27,7 +31,11 @@ Cost-effective as a cryptocurrency mining rig, without wasting the opportunity f
 Documented by spreadsheet.
 
 # Workstation
-High-end workstation. VR adapter, hopefully supporting multiple 4k HDMI input encoding simultaneously with intense graphics.
+High-end workstation.
+
+Specifically designed for maximum responsiveness and peripherial bandwidth.
+
+High-end workstation. VR adapter, hopefully supporting multiple 4k HDMI input encoding simultaneously with intense graphics. VR position tracking provider.
 
  >3xGPU Support
 
@@ -56,8 +64,8 @@ VR applications in particular may be more likely to encounter persistent framera
 
 Despite higher per-core performance, Intel CPUs are not showing a clear benefit in VR applications. AMD CPUs, with slightly higher total multithreaded throughput, may perform better for some OpenVR applications [1] .
 
-## ASUS Motherboards
-ASUS motherboards have historically been more likely to ship with unusual BIOS modifications, increasing risk of compatibility issues with certain use cases.
+## ASRock Motherboards
+Reportedly dubious VRM claims. [2]
 
 ## USB3 Controllers
 Oculus reports incompatibility with some USB3 controllers. Most likely, these devices are also unsuitable for any realtime industrial applications.
@@ -66,6 +74,11 @@ Oculus reports incompatibility with some USB3 controllers. Most likely, these de
 VR applications - especially DCS World, Elite Dangerous, and Onward - have apparently shown some performance issues with AMD FX CPUs. Experiments with CPU affinity, process prioritization, overclocking, and simultaneous multithreading, strongly suggest this is due simply to insufficient total mutithreaded throughput. Newer processors (ie. Ryzen/Threadripper) are recommended.
 
 All workstation designs mentioning AMD FX CPUs are to be considered in need of update.
+
+# Change
+
+## ASUS Motherboards
+Recently, stability and feature set from ASUS brand has been leading in several cases.
 
 # Details
 
@@ -84,4 +97,6 @@ https://us.msi.com/Motherboard/X470-GAMING-M7-AC/Specification
 https://www.reddit.com/r/oculus/comments/401xtz/psa_not_all_usb3cards_will_work_with_the_rift/
 
 https://www.gamersnexus.net/guides/2871-amd-vs-intel-vr-cpu-benchmarks-with-vive-and-rift/page-2	[1]
+
+https://www.youtube.com/watch?v=kEjCq_bO4Uc	[2]
 
