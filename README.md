@@ -75,6 +75,11 @@ VR applications - especially DCS World, Elite Dangerous, and Onward - have appar
 
 All workstation designs mentioning AMD FX CPUs are to be considered in need of update.
 
+# Caution
+
+## SSD
+Be extremely skeptical of advertised SSD performance. Some variants are known to have severe latency issues under common conditions, or specific conditions which may be relevant to workstation workloads.
+
 # Change
 
 ## ASUS Motherboards
@@ -99,4 +104,8 @@ https://www.reddit.com/r/oculus/comments/401xtz/psa_not_all_usb3cards_will_work_
 https://www.gamersnexus.net/guides/2871-amd-vs-intel-vr-cpu-benchmarks-with-vive-and-rift/page-2	[1]
 
 https://www.youtube.com/watch?v=kEjCq_bO4Uc	[2]
+
+https://www.reddit.com/r/Amd/comments/8hurwf/question_2700x_meltdownspectre_impacts/
+
+https://www.tomshardware.com/reviews/samsung-970-evo-ssd-review,5573-2.html
 
