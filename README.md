@@ -80,6 +80,11 @@ All workstation designs mentioning AMD FX CPUs are to be considered in need of u
 ## SSD
 Be extremely skeptical of advertised SSD performance. Some variants are known to have severe latency issues under common conditions, or specific conditions which may be relevant to workstation workloads.
 
+## RAM
+
+Memory not recommended by motherboard manufacturers has usually been found to cause minor problems.
+*) ASUS Motherboards - Expect to flash a BIOS update. Does not require CPU, RAM, GPU, present.
+
 # Change
 
 ## ASUS Motherboards
