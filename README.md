@@ -1,102 +1,63 @@
-Optimized computer configurations, once at least twice as cost-effective as similarly performant prebuilt machines, and always a guide when selecting systems.
+Optimized computer configurations, sometimes more cost-effective, sometimes more performant.
 
-# Net
+
+# Computers
+
+## VR
+
+VR capable computer specifically intended to render the most demanding applications at maximum resolution.
+
+
+## Base
+
+Less expensive VR capable computer suitable for common applications.
+
+
+## Net
 Fast network router solution.
 
 Documented by spreadsheet.
 
-# Micro
-Embedded performant system, >7k Passmark, >1TFLOPS, >6 IO, minimum cost.
 
-Documented by spreadsheet.
-
-# Embedded
-Intended for industrial robots. Expected to support RT_PREEMPT. Optimized for machine learning, visualization, and IO.
-
-Current processor sockets support a maximum of 24 PCIe 3.0 lanes, limiting configuration to roughly "Gen3(16,0) (8,8), Gen2(4)".
-
-Documented by spreadsheet.
-
-# Base
-Basic 'best performance per dollar' machine optimizes the cost of current hardware and power consumption. AMD seems to be a current industry leader.
-
-Specificially designed for maximum VR rendering framerates. Base overclocking is now a design requirement if well supported by available components.
-
-VR render endpoint.
-
-Cost-effective as a cryptocurrency mining rig, without wasting the opportunity for intermittent desktop use.
-
- >2xGPU Support
-
-Documented by spreadsheet.
-
-# Workstation
-High-end workstation.
+## Workstation
+High-end workstation. Build server. VR to HDMI adapter. VR position tracking provider.
 
 Specifically designed for maximum responsiveness and peripherial bandwidth.
-
-High-end workstation. VR adapter, hopefully supporting multiple 4k HDMI input encoding simultaneously with intense graphics. VR position tracking provider.
 
  >3xGPU Support
 
 Documented by spreadsheet.
 
-# Lightweight
+## Lightweight
 Lightweight servers can be served by a "LapRack" approach - a RasPi connected to a USB battery and two OpenWRT routers. Low-power, compact, portable, and reliable.
 https://github.com/mirage335/LapRack
 
 CoreAutoSSH allows ad-hoc servers to be accessed by robust, automatic, reverse tunnel.
 https://github.com/mirage335/CoreAutoSSH
 
-# Avoid
-
-## Intel and NVIDIA
-Intel and NVIDIA products should currently be considered NOT RECOMMENDED FOR NEW DESIGNS.
-
-Poor support commitment to end-users has been demonstrated by both companies. 
-* Performance degradation after sale (Intel).
-* Probable worst-case latency impacts (Intel).
-* Attempting to spin to security flaws (Intel).
-* Proprietary drivers (NVIDIA).
-* Abuse of driver EULA (NVIDIA).
-
-VR applications in particular may be more likely to encounter persistent framerate degrading bugs due to delays in processing IO requests.
-
-Despite higher per-core performance, Intel CPUs are not showing a clear benefit in VR applications. AMD CPUs, with slightly higher total multithreaded throughput, may perform better for some OpenVR applications [1] .
-
-## ASRock Motherboards
-Reportedly dubious VRM claims. [2]
+# Prefer
 
 ## USB3 Controllers
-Oculus reports incompatibility with some USB3 controllers. Most likely, these devices are also unsuitable for any realtime industrial applications.
+Oculus reports incompatibility with some USB3 controllers. Most likely, these devices are also unsuitable for realtime industrial applications.
 
-## AMD FX CPUs and Older
-VR applications - especially DCS World, Elite Dangerous, and Onward - have apparently shown some performance issues with AMD FX CPUs. Experiments with CPU affinity, process prioritization, overclocking, and simultaneous multithreading, strongly suggest this is due simply to insufficient total mutithreaded throughput. Newer processors (ie. Ryzen/Threadripper) are recommended.
+## Graphics Cards
 
-All workstation designs mentioning AMD FX CPUs are to be considered in need of update.
+Factory overclocked graphics cards may be pre-binned, and usually support overclocking ~1.2x beyond manufacturer specificatons.
 
-# Caution
+Maxium power target is an important figure of merit for determining whether a graphics card will be able to remain at boost clock rather than thermal throttling.
 
 ## SSD
 Be extremely skeptical of advertised SSD performance. Some variants are known to have severe latency issues under common conditions, or specific conditions which may be relevant to workstation workloads.
 
+Samsung SSDs have generally proven reliable.
+
 ## RAM
 
-Memory not recommended by motherboard manufacturers has usually been found to cause minor problems.
-*) ASUS Motherboards - Expect to flash a BIOS update. Does not require CPU, RAM, GPU, present.
+High memory frequency compatibility with overclocked processors may not be guaranteed. Carefully select memory based on reports of quality fabrication.
 
-# Change
+# Threading
 
-## ASUS Motherboards
-Recently, stability and feature set from ASUS brand has been leading in several cases.
-
-# Details
-
-Hardware acqusition strategies should now shift to less expensive equipment, prioritizing complete replacement rather than upgrades. Increasing support for alternative processor architectures, improved competiton in semiconductor fabrication, and the possibility of a poorly aligned business model, renders the value of a vendor's upgradable components much less certain. Shifting more frequently to lower-power systems is likely to also improve ecological sustainability.
-
-Power supply, fans, and liquid cooling components are a possible exception, as some of these may be useful for multiple generations of new computer systems.
-
-Transparency, down to chip hardware designs, should be considered evidence of lower depreciation risk.
+Single-thread and single-GPU performance improvements of a few percent, rather than orders of magnitude, have become significant to achieving higher resolution. This is due to VR applications in particular running consistently enough to render smooth framerates with latency margins of less than 10%.
 
 # Reference
 https://www.reddit.com/r/oculus/wiki/compatible_hardware

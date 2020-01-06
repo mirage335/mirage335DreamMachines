@@ -1,6 +1,4 @@
-Dedicated mining rigs are a bad idea. Mining rigs with more than 4x GPUs will cost more than ~$4k. At such a price, it is worth investing at least another $1k in a decent machine for intermittent workstation usage.
-
-Mining with GPUs is a volatile business. With only 2x GPUs supported by CrossFire, all additional GPUs can be used for number crunching only. Going further, with most, if not all GPUs badly starved for PCI-E bandwidth on >4GPU systems, the machine will have limited utility for any other tasks.
+Dedicated mining rigs have limited end-of-life return-on-investment. Mining rigs with more than 4x GPUs will cost more than ~$4k. At such a price, it is worth investing at least another $1k in a decent machine for intermittent workstation usage, which may be resold.
 
 
 

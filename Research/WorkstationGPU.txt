@@ -1,5 +1,0 @@
-# Radeon RX Vega 64
-Strongly recommended for better performance.
-
-# Radeon Vega Frontier Edition
-Supports "pro" drivers, which may be needed by some proprietary applications.
