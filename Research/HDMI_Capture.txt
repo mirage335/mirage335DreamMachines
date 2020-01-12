@@ -16,6 +16,10 @@ Magewell USB Capture HDMI Gen 2
 	USB 3.0
 	Linux Supported
 
+ClonerAlliance Flint 4KP
+	USB 3.0
+	Linux Possibly Supported
+
 # Reference
 https://www.amazon.com/AVerMedia-Multi-Card-Low-Latency-Pass-Through-GC570/dp/B06XRF732W/ref=sr_1_13?s=electronics&ie=UTF8&qid=1525228732&sr=1-13&keywords=elgato%2BHD60&th=1
 
@@ -25,3 +29,4 @@ https://www.amazon.com/Magewell-Capture-Quad-HDMI-Video/dp/B0178DV064/ref=sr_1_5
 
 https://www.youtube.com/watch?v=sjmtAZTL4xs
 
+https://www.reddit.com/r/linux_gaming/comments/c5m1at/i_tested_4_linuxcompatible_usb_30_hdmi_capture/

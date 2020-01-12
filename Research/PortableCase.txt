@@ -1,0 +1,131 @@
+
+
+_Selected_
+H200 TG Snow RGB
+
+
+
+
+_Keywords_
+Case
+Inverted
+
+Compact
+Mid Tower
+
+PCIE Riser
+
+
+
+_Desired_
+<18in width (rack)
+<18in x <14 x <8
+
+_Permissible_
+<22 x <18 x <10
+
+
+
+_Brands_
+
+*) Lian Li
+*) Be Quiet
+*) Rosewill
+*) Ritoro
+*) SilverStone
+*) Cooler Master
+
+*) Thermaltake
+*) Corsair
+
+
+
+_Candidates_
+https://www.amazon.com/RIOTORO-Morpheus-GPX-100-Convertible-Mid-Tower/dp/B07L2YVNGR
+
+https://www.amazon.com/Cooler-Master-Computer-Radiator-RC-902XB-KKN2/dp/B00FFJ0H3Q
+https://www.youtube.com/watch?v=UxzH4wijY60
+At least "   17.4(W) x 13(H) x 16.7(D) inch   "
+
+https://www.amazon.com/Rosewill-Rackmount-Computer-Pre-Installed-RSV-L4000/dp/B0056OUTBK
+"   7.00" x 16.80" x 25.00"   "
+37.6 lbs
+
+https://www.nzxt.com/products/h510-elite-matte-black
+At least "   210mm H: 460mm D: 428mm   " ( 8.27in x 18.12in x 16.85in ) .
+Weight 7.5kg (16.5lbs) .
+
+https://www.amazon.com/Thermaltake-Factor-Certified-Computer-CA-1G6-00T1WN-00/dp/B01KV6ACLO
+At least "   (17.9 x 5.5 x 14.6 inch)   " .
+Weight 4.2kg / 9.3 lb .
+
+
+
+https://www.thermaltake.com/h200-tg-snow-rgb-2.html
+(16.4 x 8.3 x 17.9 inch)
+7.6kg / 16.75 lbs
+
+
+
+
+_Dimensions_
+ATX x+9.6in * y+12in
+GPU x>=11.89in z+5.48in + z+0.5in (cabling)
+CPU z>=5in
+
+x11.89in * y12in * z6in
+
+PSU x>=6.3in y+3.4in z>=6.3in
+
+x11.89in * y15.4in * z6.3in
+
+
+
+-Motherboard-
+ATX Form Factor
+30.5cm x 24.4cm ( 12in x 9.6in )
+
+-GPU-
+EVGA GeForce RTX 2080 Ti Ftw3 Ultra
+
+Height: 5.48 in - 139.3 mm
+Length: 11.89 in - 301.925 mm
+Width: 2.75 Slots
+
+
+-CPU-
+Noctua NH-U9S
+
+Adequate to cool Silicon Lottery pre-binned i9-9900K CPUs at specifications.
+
+'Only 125mm height.'
+
+
+_Future_
+-Power-
+ATX Motherboard - PicoPSU.
+ATX 12V line - DC regulator, 12V, 1kW (if separate GPU power).
+Battery - LiPo 10x.
+    https://hobbyking.com/en_us/turnigy-bolt-5400mah-6s-22-8v-65-130c-high-voltage-lipoly-pack-lihv-xt90.html
+
+
+
+
+
+
+_Reference_
+https://www.youtube.com/watch?v=aBCqfy3W_B4
+https://www.reddit.com/r/buildapc/comments/9esrvm/making_a_vr_backpack/
+
+https://linustechtips.com/main/topic/838420-power-gpu-directly-from-car-battery/
+
+https://www.amazon.com/s?k=60A+12v+buck&ref=nb_sb_noss
+https://www.amazon.com/Converter-Voltage-Regulator-Reducer-Non-Isolated/dp/B07X864177
+
+
+https://www.amazon.com/NZXT-H510i-Vertical-Integrated-Water-Cooling/dp/B07C3SQPBB
+
+https://www.riotoro.com/morpheus
+
+https://youtu.be/SpWXd8jo6mQ?t=108
+
